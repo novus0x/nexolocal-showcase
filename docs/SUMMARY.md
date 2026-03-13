@@ -20,6 +20,7 @@ The platform combines:
 - Sales
 - Inventory
 - Finance
+- Recurring finance operations
 - Cash management
 - Suppliers
 - Active services
@@ -31,6 +32,8 @@ The platform combines:
 
 NexoLocal is documented as a web-based platform built with modern backend and frontend technologies, relational persistence, and selected third-party integrations for communication, identity, payments, and compliance-oriented processes.
 
+Recent public milestones include continued expansion of the finance area with improved transaction workflows and recurring financial operations.
+
 ## Public Documentation Scope
 
 This repository is intentionally limited to public-facing product and architecture context. Detailed implementation logic, private contracts, infrastructure configuration, and proprietary operational design are not exposed here.
@@ -39,8 +42,6 @@ This repository is intentionally limited to public-facing product and architectu
 
 - `docs/README.md`
 - `docs/ARCHITECTURE.md`
-- `docs/DATABASE.md`
 - `docs/MODULES.md`
-- `docs/API.md`
 - `docs/PAGE_CAPABILITIES.md`
 - `docs/CHANGELOG.md`

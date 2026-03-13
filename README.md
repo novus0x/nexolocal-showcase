@@ -20,7 +20,7 @@ The system addresses a common operational gap in small and growing businesses: d
 
 - **Sales:** sale creation, customer lookup, reporting, and internal sale document generation.
 - **Inventory:** product catalog, batch management, imports, and product updates.
-- **Finance:** income and expense tracking, summaries, grouped entries, and export flows.
+- **Finance:** transaction tracking, summaries, grouped entries, recurring operations, and export flows.
 - **Cash management:** cash opening, closing, session tracking, and cash export flows.
 - **Supplier management:** supplier creation, listing, reading, and updates.
 - **Fiscal documents:** tax profile setup, fiscal series configuration, tax document records, and public document verification via `/check-ticket`.
@@ -37,7 +37,7 @@ At the business level, NexoLocal can support the full journey from product disco
 - Account creation, login, email verification, and password recovery.
 - Subscription management with first-company trial logic and paid flows for additional companies.
 - Platform-side administration for users, roles, plans, companies, analytics, and staff support.
-- Company-side daily operations across products, suppliers, sales, finance, cash, settings, and tax configuration.
+- Company-side daily operations across products, suppliers, sales, finance, recurring finance workflows, cash, settings, and tax configuration.
 - Public verification of issued document information through a dedicated lookup flow.
 - Support and invitation workflows for growing teams and multi-user company environments.
 
@@ -46,7 +46,7 @@ At the business level, NexoLocal can support the full journey from product disco
 NexoLocal follows a two-application architecture:
 
 - **Backend API:** a FastAPI application responsible for authentication, business rules, billing, company operations, tax-oriented workflows, and integrations.
-- **Frontend:** an Express server-side rendered application that serves public pages, authentication flows, dashboards, and company/platform workspaces using Nunjucks views.
+- **Frontend:** a server-rendered web application that serves public pages, authentication flows, dashboards, and company/platform workspaces.
 - **Database:** a relational model managed through SQLAlchemy, covering identity, access control, companies, billing, operations, support, tax data, and audit records.
 - **Services layer:** dedicated internal services for email delivery, payment processing, and tax engine integration.
 - **Modular components:** the system is organized into domain-specific route groups such as auth, platform, company, and general flows, which keeps responsibilities separated by business area.
@@ -56,35 +56,31 @@ NexoLocal follows a two-application architecture:
 ### Frontend
 
 - Node.js
-- Express 5
-- Nunjucks
-- Tailwind CSS
+- Express-based SSR architecture
+- Server-rendered templating
+- Modern web UI layer
 - Vanilla JavaScript
 
 ### Backend
 
-- Python 3.12
+- Python 3.14
 - FastAPI
 - SQLAlchemy
-- JWT-based session validation
-- `bcrypt`
-- `httpx`
-- `aiosmtplib`
-- ReportLab
-- Jinja2
+- Token-based authentication
+- Service-oriented backend architecture
 
 ### Database
 
-- Relational database mapped with SQLAlchemy models
+- Relational database architecture
 
 ### Infrastructure
 
 - Docker
 - Docker Compose
-- SMTP integration
-- Google OAuth integration
-- Flow payment integration
-- Tax engine integration
+- Email integration
+- OAuth integration
+- Payment integration
+- Tax-oriented integration
 
 ## System Modules
 
@@ -99,6 +95,8 @@ Manages products, product batches, imports, and product update flows for company
 ### Finance
 
 Provides finance summaries, chart data, income and expense registration, and export functionality.
+
+Also supports broader finance workflows such as transaction management and recurring financial operations.
 
 ### Suppliers
 
@@ -135,12 +133,10 @@ This public repository is documentation-first. The production source code is pri
 ```text
 .
 ├── docs/
-│   ├── API.md
 │   ├── ARCHITECTURE.md
-│   ├── PAGE_CAPABILITIES.md
-│   ├── DATABASE.md
 │   ├── CHANGELOG.md
 │   ├── MODULES.md
+│   ├── PAGE_CAPABILITIES.md
 │   ├── README.md
 │   └── SUMMARY.md
 └── README.md
@@ -151,18 +147,20 @@ This public repository is documentation-first. The production source code is pri
 Detailed technical documentation is available in [`/docs`](./docs), including:
 
 - Architecture overview
-- Public API scope note
-- Public data-layer scope note
 - Module breakdown
 - Functional page capabilities
 - Project summary
-- Release changelog
+- Release changelog: [`docs/CHANGELOG.md`](./docs/CHANGELOG.md)
 
 This repository is intended to act as a public-facing project overview and documentation hub.
+
+The published changelog represents the version history that has already been reviewed and approved for public disclosure. Additional internal versions or unreleased iterations may exist and may not yet be listed in this repository.
 
 ## Development Status
 
 NexoLocal is in active development. The documented platform already covers product discovery, authentication, onboarding, billing, platform administration, company operations, support flows, public document lookup, and active service management, while continuing to evolve as the product matures.
+
+Based on the public changelog, the latest documented additions include expanded finance transaction workflows and recurring finance operations.
 
 ## Disclaimer
 

@@ -11,39 +11,36 @@ The current implementation covers public discovery, account creation, email veri
 - Public landing page with plan discovery
 - Private user area with dashboard, billing, invitations, and support
 - Platform administration for users, roles, plans, companies, analytics, and support
-- Company area for sales, inventory, suppliers, finance, cash, settings, and active services
+- Company area for sales, inventory, suppliers, finance, recurring finance workflows, cash, settings, and active services
 - Tax-oriented setup for formal companies
 - Subscription and onboarding flows for business workspaces
 - Public document lookup
 - Export-oriented cash and finance workflows
+- Recurring finance operations
 
 ## Tech Stack
 ### Backend
-- Python 3.12
+- Python 3.14
 - FastAPI
-- SQLAlchemy ORM
-- JWT-based session validation
-- `bcrypt`
-- `httpx`
-- `aiosmtplib`
-- ReportLab
-- Jinja2
+- SQLAlchemy
+- Token-based authentication
+- Service-oriented backend architecture
 
 ### Frontend
 - Node.js
-- Express 5
-- Nunjucks
-- Tailwind CSS
-- Vanilla browser JavaScript
+- Express-based SSR architecture
+- Server-rendered templating
+- Modern web UI layer
+- Vanilla JavaScript
 
 ### Database
-- Relational schema mapped with SQLAlchemy models
+- Relational database architecture
 
 ### Services and Integrations
-- SMTP email delivery
-- Google OAuth
+- Email integration
+- OAuth integration
 - Tax-oriented integration
-- Flow payment integration
+- Payment integration
 
 ## Public Documentation Scope
 
@@ -54,8 +51,8 @@ This repository is public for product documentation and project overview purpose
 NexoLocal is documented as a modern web platform built with:
 
 - Python and FastAPI on the backend
-- Node.js, Express SSR, and Nunjucks on the frontend
-- SQLAlchemy-managed relational persistence
+- Node.js and a server-rendered frontend architecture
+- Relational data persistence
 - External integrations for email, OAuth, payments, and tax-oriented workflows
 
 ## Folder Structure Overview
@@ -63,12 +60,12 @@ NexoLocal is documented as a modern web platform built with:
 
 ## Documentation Files
 - `docs/ARCHITECTURE.md`
-- `docs/DATABASE.md`
 - `docs/MODULES.md`
-- `docs/API.md`
 - `docs/PAGE_CAPABILITIES.md`
 - `docs/SUMMARY.md`
 - `docs/CHANGELOG.md`
 
 ## Documentation Note
 This documentation is intended as a public-facing overview of the product and its evolution. It describes the platform at a business and architecture level without exposing proprietary implementation details.
+
+The latest public changelog entries reflect continued expansion of the finance area, including broader transaction workflows and recurring financial operations.

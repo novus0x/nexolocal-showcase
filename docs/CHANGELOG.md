@@ -63,3 +63,5 @@ This file summarizes the documented release history of NexoLocal.
 | 1.26.1 | Auth UI improvements | Authentication UI improvements | 34123 |
 | 1.27.0 | Suppliers improvements | Suppliers module improvements | 34762 |
 | 1.27.1 | Suppliers backend | Backend additions for suppliers module | 34881 |
+| 1.28.0 | Finance module improvements | Added full finance transactions workflow: movements page with pagination, read view, update flow, improved receipt handling and navigation | 36148 |
+| 1.29.0 | Recurring finance system | Implemented recurring financial operations with full CRUD, improved UI, and a background worker that processes recurring entries every 30 minutes | 38589 |

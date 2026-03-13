@@ -34,6 +34,8 @@ Supports product organization, stock-related records, and product maintenance wo
 
 Supports business income and expense tracking, financial visibility, and export-oriented workflows.
 
+This area also includes transaction-oriented workflows and recurring financial operations.
+
 ### Cash Management
 
 Supports cash session control and daily cash-related operational processes.
