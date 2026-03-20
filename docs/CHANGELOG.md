@@ -66,6 +66,6 @@ This file summarizes the documented release history of NexoLocal.
 | 1.28.0 | Finance module improvements | Added full finance transactions workflow: movements page with pagination, read view, update flow, improved receipt handling and navigation | 36148 |
 | 1.29.0 | Recurring finance system | Implemented recurring financial operations with full CRUD, improved UI, and a background worker that processes recurring entries every 30 minutes | 38589 |
 | 1.29.1 | Finance and recurring stability improvements | Improve finance and recurring stability through cleaner recurring generation, dashboard logic refinements, backend route consistency, and responsive UI adjustments | 38720 |
-| 1.29.2 | Proxy configuration and UI permission adjustments | Improve proxy compatibility and refine UI behavior through trust proxy support, updated cash sidebar permissions, and better settings responsiveness | 28722 |
-| 1.29.3 | Fix finance.py error | Apply a targeted backend fix in finance.py to prevent a runtime error in the finance module | 28723 |
+| 1.29.2 | Proxy configuration and UI permission adjustments | Improve proxy compatibility and refine UI behavior through trust proxy support, updated cash sidebar permissions, and better settings responsiveness | 38722 |
+| 1.29.3 | Fix finance.py error | Apply a targeted backend fix in finance.py to prevent a runtime error in the finance module | 38723 |
 | 1.30.0 | Add finance containers and improve tax emission reliability | Introduce finance containers, strengthen recurring-finance linking, improve tax emission resilience, and expand finance views, exports, timezone handling, and supporting infrastructure | 40092 |
