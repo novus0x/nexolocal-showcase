@@ -27,6 +27,8 @@ NexoLocal connects with external providers for:
 - payments
 - tax-oriented integrations
 
+The public product direction also reflects continued investment in financial workflow expansion and resilience for tax-related operations.
+
 ## Product Architecture Principles
 
 - Multi-company SaaS model

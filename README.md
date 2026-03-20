@@ -20,10 +20,10 @@ The system addresses a common operational gap in small and growing businesses: d
 
 - **Sales:** sale creation, customer lookup, reporting, and internal sale document generation.
 - **Inventory:** product catalog, batch management, imports, and product updates.
-- **Finance:** transaction tracking, summaries, grouped entries, recurring operations, and export flows.
+- **Finance:** transaction tracking, finance containers, summaries, grouped entries, recurring operations, and export flows.
 - **Cash management:** cash opening, closing, session tracking, and cash export flows.
 - **Supplier management:** supplier creation, listing, reading, and updates.
-- **Fiscal documents:** tax profile setup, fiscal series configuration, tax document records, and public document verification via `/check-ticket`.
+- **Fiscal documents:** tax profile setup, fiscal series configuration, tax document records, public document verification via `/check-ticket`, and more resilient tax emission workflows.
 - **Role-based permissions:** platform roles, permission catalog, company-scoped access, and guarded modules.
 - **Multi-company architecture:** plan-based onboarding, company creation, subscriptions, billing history, and support for multiple companies per user.
 - **Authentication and account lifecycle:** email/password authentication, Google OAuth, email verification, password recovery, and user password updates.
@@ -37,7 +37,7 @@ At the business level, NexoLocal can support the full journey from product disco
 - Account creation, login, email verification, and password recovery.
 - Subscription management with first-company trial logic and paid flows for additional companies.
 - Platform-side administration for users, roles, plans, companies, analytics, and staff support.
-- Company-side daily operations across products, suppliers, sales, finance, recurring finance workflows, cash, settings, and tax configuration.
+- Company-side daily operations across products, suppliers, sales, finance containers, recurring finance workflows, cash, settings, and tax configuration.
 - Public verification of issued document information through a dedicated lookup flow.
 - Support and invitation workflows for growing teams and multi-user company environments.
 
@@ -96,7 +96,7 @@ Manages products, product batches, imports, and product update flows for company
 
 Provides finance summaries, chart data, income and expense registration, and export functionality.
 
-Also supports broader finance workflows such as transaction management and recurring financial operations.
+Also supports broader finance workflows such as transaction management, finance containers, recurring financial operations, and richer finance views.
 
 ### Suppliers
 
@@ -104,7 +104,7 @@ Supports supplier creation, listing, detail retrieval, and updates.
 
 ### Tax Engine
 
-Supports tax profile configuration, fiscal series, tax-oriented workflows, and tax document records.
+Supports tax profile configuration, fiscal series, tax-oriented workflows, tax document records, and improved tax emission reliability.
 
 ### Authentication
 
@@ -160,7 +160,7 @@ The published changelog represents the version history that has already been rev
 
 NexoLocal is in active development. The documented platform already covers product discovery, authentication, onboarding, billing, platform administration, company operations, support flows, public document lookup, and active service management, while continuing to evolve as the product matures.
 
-Based on the public changelog, the latest documented additions include expanded finance transaction workflows and recurring finance operations.
+Based on the public changelog, the latest documented additions include expanded finance workflows, finance containers, recurring finance improvements, stability-focused refinements, permission-related UI adjustments, and improved tax emission reliability.
 
 ## Disclaimer
 

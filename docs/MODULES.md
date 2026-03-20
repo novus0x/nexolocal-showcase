@@ -34,7 +34,7 @@ Supports product organization, stock-related records, and product maintenance wo
 
 Supports business income and expense tracking, financial visibility, and export-oriented workflows.
 
-This area also includes transaction-oriented workflows and recurring financial operations.
+This area also includes transaction-oriented workflows, finance containers, recurring financial operations, and fund-aware finance organization.
 
 ### Cash Management
 
@@ -50,7 +50,7 @@ Supports post-sale service tracking and service lifecycle management.
 
 ### Tax and Compliance
 
-Supports tax-oriented business configuration and compliance-related processes for formal companies.
+Supports tax-oriented business configuration, compliance-related processes for formal companies, and more resilient tax-related operational flows.
 
 ### Support
 
