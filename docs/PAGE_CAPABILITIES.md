@@ -40,6 +40,7 @@ Companies use NexoLocal as an operational workspace for:
 
 - sales
 - inventory
+- services
 - suppliers
 - finance
 - finance containers

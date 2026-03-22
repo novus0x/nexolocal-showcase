@@ -19,6 +19,7 @@ The platform combines:
 
 - Sales
 - Inventory
+- Services
 - Finance
 - Finance containers
 - Recurring finance operations
@@ -33,7 +34,7 @@ The platform combines:
 
 NexoLocal is documented as a web-based platform built with modern backend and frontend technologies, relational persistence, and selected third-party integrations for communication, identity, payments, and compliance-oriented processes.
 
-Recent public milestones include continued expansion of the finance area with improved transaction workflows, finance containers, recurring financial operations, and more resilient tax-related processing.
+Recent public milestones include continued expansion of the finance area with improved transaction workflows, finance containers, recurring financial operations, stronger fund-level management, more resilient tax-related processing, and clearer separation between product and service workflows.
 
 ## Public Documentation Scope
 

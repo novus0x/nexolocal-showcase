@@ -20,6 +20,7 @@ The system addresses a common operational gap in small and growing businesses: d
 
 - **Sales:** sale creation, customer lookup, reporting, and internal sale document generation.
 - **Inventory:** product catalog, batch management, imports, and product updates.
+- **Services:** independent service-oriented workflows alongside product operations.
 - **Finance:** transaction tracking, finance containers, summaries, grouped entries, recurring operations, and export flows.
 - **Cash management:** cash opening, closing, session tracking, and cash export flows.
 - **Supplier management:** supplier creation, listing, reading, and updates.
@@ -37,7 +38,7 @@ At the business level, NexoLocal can support the full journey from product disco
 - Account creation, login, email verification, and password recovery.
 - Subscription management with first-company trial logic and paid flows for additional companies.
 - Platform-side administration for users, roles, plans, companies, analytics, and staff support.
-- Company-side daily operations across products, suppliers, sales, finance containers, recurring finance workflows, cash, settings, and tax configuration.
+- Company-side daily operations across products, services, suppliers, sales, finance containers, recurring finance workflows, cash, settings, and tax configuration.
 - Public verification of issued document information through a dedicated lookup flow.
 - Support and invitation workflows for growing teams and multi-user company environments.
 
@@ -91,6 +92,10 @@ Handles sale creation, customer lookup, sales listing, reports, and internal sal
 ### Inventory
 
 Manages products, product batches, imports, and product update flows for company operations.
+
+### Services
+
+Supports service-specific workflows separated from product operations, allowing the platform to handle each business flow more clearly.
 
 ### Finance
 
@@ -160,7 +165,7 @@ The published changelog represents the version history that has already been rev
 
 NexoLocal is in active development. The documented platform already covers product discovery, authentication, onboarding, billing, platform administration, company operations, support flows, public document lookup, and active service management, while continuing to evolve as the product matures.
 
-Based on the public changelog, the latest documented additions include expanded finance workflows, finance containers, recurring finance improvements, stability-focused refinements, permission-related UI adjustments, and improved tax emission reliability.
+Based on the public changelog, the latest documented additions include expanded finance workflows, finance containers, recurring finance improvements, stability-focused refinements, independent product and service workflows, stronger finance-container management, fund-aware exports, and improved tax emission reliability.
 
 ## Disclaimer
 

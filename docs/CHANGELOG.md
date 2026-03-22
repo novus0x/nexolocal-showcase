@@ -68,4 +68,6 @@ This file summarizes the documented release history of NexoLocal.
 | 1.29.1 | Finance and recurring stability improvements | Improve finance and recurring stability through cleaner recurring generation, dashboard logic refinements, backend route consistency, and responsive UI adjustments | 38720 |
 | 1.29.2 | Proxy configuration and UI permission adjustments | Improve proxy compatibility and refine UI behavior through trust proxy support, updated cash sidebar permissions, and better settings responsiveness | 38722 |
 | 1.29.3 | Fix finance.py error | Apply a targeted backend fix in finance.py to prevent a runtime error in the finance module | 38723 |
-| 1.30.0 | Add finance containers and improve tax emission reliability | Introduce finance containers, strengthen recurring-finance linking, improve tax emission resilience, and expand finance views, exports, timezone handling, and supporting infrastructure | 40092 |
+| 1.30.0 | Finance containers & tax resilience | Introduced finance containers and improved SUNAT error handling with retry system | 40092 |
+| 1.31.0 | Products & services separation | Decoupled products and services into independent workflows | 41408 |
+| 1.32.0 | Finance container management | Added full CRUD for finance containers and export filtering by fund | 42269 |

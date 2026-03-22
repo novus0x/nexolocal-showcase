@@ -11,13 +11,14 @@ The current implementation covers public discovery, account creation, email veri
 - Public landing page with plan discovery
 - Private user area with dashboard, billing, invitations, and support
 - Platform administration for users, roles, plans, companies, analytics, and support
-- Company area for sales, inventory, suppliers, finance, finance containers, recurring finance workflows, cash, settings, and active services
+- Company area for sales, inventory, services, suppliers, finance, finance containers, recurring finance workflows, cash, settings, and active services
 - Tax-oriented setup for formal companies
 - Subscription and onboarding flows for business workspaces
 - Public document lookup
 - Export-oriented cash and finance workflows
 - Recurring finance operations
 - Finance containers and fund-level organization
+- Independent product and service workflows
 
 ## Tech Stack
 ### Backend
@@ -69,4 +70,4 @@ NexoLocal is documented as a modern web platform built with:
 ## Documentation Note
 This documentation is intended as a public-facing overview of the product and its evolution. It describes the platform at a business and architecture level without exposing proprietary implementation details.
 
-The latest public changelog entries reflect continued expansion of the finance area, including finance containers, recurring finance improvements, stability-focused refinements, permission-related UI adjustments, and improved tax emission reliability.
+The latest public changelog entries reflect continued expansion of the finance area, including finance containers, recurring finance improvements, stability-focused refinements, permission-related UI adjustments, improved tax emission reliability, and the separation of product and service workflows.

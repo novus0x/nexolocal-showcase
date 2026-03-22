@@ -30,11 +30,17 @@ Supports transaction management, customer-related sales flows, and reporting-ori
 
 Supports product organization, stock-related records, and product maintenance workflows.
 
+### Services
+
+Supports service-specific operational flows separated from product management.
+
 ### Finance
 
 Supports business income and expense tracking, financial visibility, and export-oriented workflows.
 
 This area also includes transaction-oriented workflows, finance containers, recurring financial operations, and fund-aware finance organization.
+
+It also supports stronger finance-container management and export flows aligned to fund-level organization.
 
 ### Cash Management
 
