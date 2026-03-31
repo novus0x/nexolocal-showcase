@@ -2,7 +2,7 @@
 
 ## High-Level System Architecture
 
-NexoLocal is a SaaS platform organized around a web application layer, a backend service layer, a relational data layer, and external integrations required for identity, communication, payments, and tax-oriented workflows.
+NexoLocal is a SaaS platform organized around a web application layer, a mobile application layer, a backend service layer, a relational data layer, and external integrations required for identity, communication, payments, and tax-oriented workflows.
 
 ## Core Layers
 
@@ -10,9 +10,15 @@ NexoLocal is a SaaS platform organized around a web application layer, a backend
 
 The frontend provides the public product experience as well as authenticated workspaces for operators, administrators, and company teams.
 
+### Mobile App
+
+The mobile layer extends the platform to dedicated app-based workflows for supported business modules.
+
 ### Backend
 
 The backend coordinates authentication, business rules, company operations, billing-related logic, permissions, and product workflows.
+
+It also supports a mobile-oriented integration layer for app experiences.
 
 ### Database
 

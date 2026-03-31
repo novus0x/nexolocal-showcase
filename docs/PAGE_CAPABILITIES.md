@@ -23,6 +23,7 @@ Current private capabilities include:
 - subscription-related actions
 - support workflows
 - invitation-based collaboration
+- role-based team collaboration
 
 ## Platform Experience
 
@@ -31,6 +32,7 @@ Platform administrators can operate cross-company management workflows such as:
 - user administration
 - role and permission administration
 - plan administration
+- plan feature administration
 - company administration
 - platform-level support and analytics
 
@@ -39,6 +41,7 @@ Platform administrators can operate cross-company management workflows such as:
 Companies use NexoLocal as an operational workspace for:
 
 - sales
+- sales analytics
 - inventory
 - services
 - suppliers
@@ -49,6 +52,7 @@ Companies use NexoLocal as an operational workspace for:
 - active services
 - business settings
 - tax-related setup
+- CSV exports for products and services
 
 ## Public Documentation Scope
 

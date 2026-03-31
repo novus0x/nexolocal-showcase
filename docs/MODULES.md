@@ -16,15 +16,19 @@ Supports plan selection, company onboarding, subscription lifecycle flows, and b
 
 ### Platform Administration
 
-Supports central management of roles, plans, companies, users, analytics, and support operations.
+Supports central management of roles, plans, plan features, companies, users, analytics, and support operations.
 
 ### Company Operations
 
 Supports the main operational workspace for each business using the platform.
 
+This scope now also includes team-oriented collaboration through company roles and invitations.
+
 ### Sales
 
 Supports transaction management, customer-related sales flows, and reporting-oriented workflows.
+
+This area also includes analytics-oriented sales insights and dashboard capabilities.
 
 ### Inventory
 

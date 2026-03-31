@@ -71,3 +71,8 @@ This file summarizes the documented release history of NexoLocal.
 | 1.30.0 | Finance containers & tax resilience | Introduced finance containers and improved SUNAT error handling with retry system | 40092 |
 | 1.31.0 | Products & services separation | Decoupled products and services into independent workflows | 41408 |
 | 1.32.0 | Finance container management | Added full CRUD for finance containers and export filtering by fund | 42269 |
+| 1.32.1 | UI cleanup and layout improvements | Simplified UI, improved layouts for products and sales, and refined visual hierarchy | 42519 |
+| 1.33.0 | Sales analytics dashboard | Added analytics endpoint and dynamic insights dashboard for sales with real-time metrics and interactive UI | 42991 |
+| 1.34.0 | Team system & plan features | Introduced company team management, roles, invitations, plan feature system and CSV exports for products and services | 46714 |
+| 1.34.1 | Plan validation fixes | Fixed plan cycle enum validation, corrected update permission check and minor UI cleanup in plan editing | 46729 |
+| 1.35.0 | Mobile app & API layer | Introduced full mobile application (Expo + React Native) with 42 screens and a dedicated API/BFF layer for mobile integration, including session handling, permissions and module coverage | 72688 |
