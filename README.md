@@ -6,7 +6,7 @@
 
 **Operating system for local businesses.**
 
-NexoLocal is a SaaS platform built to help local businesses manage sales, inventory, finance, cash operations, subscriptions, and tax-oriented workflows from a single system.
+NexoLocal is a SaaS platform built to help local businesses manage sales, customers, inventory, finance, cash operations, subscriptions, support, reporting, and tax-oriented workflows from a single system.
 
 **Live site:** [https://nexolocal.floua.app](https://nexolocal.floua.app)
 
@@ -14,18 +14,19 @@ NexoLocal is a SaaS platform built to help local businesses manage sales, invent
 
 NexoLocal is designed for local business operators that need more than a basic POS or spreadsheet-based workflow. It centralizes commercial operations, internal control, billing, onboarding, and company management in one platform.
 
-The system addresses a common operational gap in small and growing businesses: disconnected tools for sales, stock, finance, customer follow-up, and fiscal compliance. NexoLocal brings these workflows together through a multi-company SaaS model with role-based access, platform administration, company workspaces, billing flows, and public tax document lookup.
+The system addresses a common operational gap in small and growing businesses: disconnected tools for sales, customer follow-up, stock, finance, support, reporting, and fiscal compliance. NexoLocal brings these workflows together through a multi-company SaaS model with role-based access, platform administration, company workspaces, billing flows, and public tax document lookup.
 
 The platform now extends beyond the web experience with a dedicated mobile application layer, reinforcing NexoLocal as a multi-surface operating system for local businesses.
 
 ## Key Features
 
-- **Sales:** sale creation, customer lookup, reporting, and internal sale document generation.
+- **Sales:** sale creation, customer lookup, reporting, PDF report exports, and internal sale document generation.
 - **Sales analytics:** real-time sales insights and dashboard-oriented metrics.
+- **Customer management:** customer listing, detail, updates, CSV export, and sales/service history.
 - **Inventory:** product catalog, batch management, imports, and product updates.
 - **Services:** independent service-oriented workflows alongside product operations.
-- **Finance:** transaction tracking, finance containers, summaries, grouped entries, recurring operations, and export flows.
-- **Cash management:** cash opening, closing, session tracking, and cash export flows.
+- **Finance:** transaction tracking, finance containers, summaries, grouped entries, recurring operations, and unified PDF/CSV export flows.
+- **Cash management:** cash opening, closing, session tracking, and unified PDF export flows.
 - **Supplier management:** supplier creation, listing, reading, and updates.
 - **Fiscal documents:** tax profile setup, fiscal series configuration, tax document records, public document verification via `/check-ticket`, and more resilient tax emission workflows.
 - **Role-based permissions:** platform roles, permission catalog, company-scoped access, and guarded modules.
@@ -34,7 +35,8 @@ The platform now extends beyond the web experience with a dedicated mobile appli
 - **Plan feature system:** plan-driven feature organization for company capabilities.
 - **Authentication and account lifecycle:** email/password authentication, Google OAuth, email verification, password recovery, and user password updates.
 - **CSV exports:** export support for product and service datasets.
-- **Post-sale service tracking:** active service lifecycle, validation/consumption flows, and customer linking.
+- **Post-sale service tracking:** active service lifecycle, validation/consumption flows, service activation integration, and customer linking.
+- **Support lifecycle:** ticket states, closing, reopening, and platform support follow-up.
 - **Mobile app experience:** dedicated mobile workflows backed by a mobile-focused integration layer.
 
 ## Platform Capabilities
@@ -45,21 +47,21 @@ At the business level, NexoLocal can support the full journey from product disco
 - Account creation, login, email verification, and password recovery.
 - Subscription management with first-company trial logic and paid flows for additional companies.
 - Platform-side administration for users, roles, plans, companies, analytics, and staff support.
-- Company-side daily operations across products, services, suppliers, sales, sales analytics, finance containers, recurring finance workflows, cash, settings, and tax configuration.
+- Company-side daily operations across customers, products, services, suppliers, sales, sales analytics, finance containers, recurring finance workflows, cash, settings, and tax configuration.
 - Team collaboration through roles, invitations, and plan-aware workspace capabilities.
 - Mobile access through a dedicated application experience with module coverage aligned to business operations.
 - Public verification of issued document information through a dedicated lookup flow.
-- Support and invitation workflows for growing teams and multi-user company environments.
+- Support lifecycle and invitation workflows for growing teams and multi-user company environments.
 
 ## Architecture
 
-NexoLocal follows a two-application architecture:
+NexoLocal follows a multi-surface SaaS architecture:
 
 - **Backend API:** a FastAPI application responsible for authentication, business rules, billing, company operations, tax-oriented workflows, and integrations.
 - **Web frontend:** a server-rendered web application that serves public pages, authentication flows, dashboards, and company/platform workspaces.
 - **Mobile app layer:** a dedicated mobile experience backed by a mobile-oriented API/BFF integration layer.
 - **Database:** a relational model managed through SQLAlchemy, covering identity, access control, companies, billing, operations, support, tax data, and audit records.
-- **Services layer:** dedicated internal services for email delivery, payment processing, and tax engine integration.
+- **Services layer:** dedicated internal services for email delivery, payment processing, tax engine integration, and HTML-to-PDF reporting.
 - **Modular components:** the system is organized into domain-specific route groups such as auth, platform, company, and general flows, which keeps responsibilities separated by business area.
 
 ## Tech Stack
@@ -72,6 +74,7 @@ NexoLocal follows a two-application architecture:
 - Modern web UI layer
 - Vanilla JavaScript
 - Mobile application layer
+- HTML template-based report rendering
 
 ### Backend
 
@@ -93,18 +96,23 @@ NexoLocal follows a two-application architecture:
 - OAuth integration
 - Payment integration
 - Tax-oriented integration
+- WeasyPrint-based PDF reporting
 
 ## System Modules
 
 ### Sales
 
-Handles sale creation, customer lookup, sales listing, reports, and internal sale document generation.
+Handles sale creation, customer lookup, sales listing, reports, PDF exports, and internal sale document generation.
 
 Also supports analytics-oriented dashboards with real-time insights for sales activity.
 
 ### Inventory
 
 Manages products, product batches, imports, and product update flows for company operations.
+
+### Customers
+
+Manages customer records, detail views, updates, CSV exports, and historical visibility across sales and services.
 
 ### Services
 
@@ -114,7 +122,7 @@ Supports service-specific workflows separated from product operations, allowing 
 
 Provides finance summaries, chart data, income and expense registration, and export functionality.
 
-Also supports broader finance workflows such as transaction management, finance containers, recurring financial operations, and richer finance views.
+Also supports broader finance workflows such as transaction management, finance containers, recurring financial operations, richer finance views, and unified PDF reporting.
 
 ### Suppliers
 
@@ -136,7 +144,7 @@ This scope also extends to mobile-oriented access patterns for supported busines
 
 ### Cash
 
-Tracks cash sessions, opening and closing flows, and cash movement exports.
+Tracks cash sessions, opening and closing flows, and cash movement exports through the unified PDF reporting system.
 
 ### Active Services
 
@@ -144,7 +152,7 @@ Tracks services sold after checkout, including activation, usage validation, exp
 
 ### Platform Administration
 
-Provides central management for users, roles, plans, plan features, companies, analytics, and support tickets.
+Provides central management for users, roles, plans, plan features, companies, analytics, and support tickets with state-based support lifecycle handling.
 
 ## Project Structure
 
@@ -180,7 +188,7 @@ The published changelog represents the version history that has already been rev
 
 NexoLocal is in active development. The documented platform already covers product discovery, authentication, onboarding, billing, platform administration, company operations, support flows, public document lookup, and active service management, while continuing to evolve as the product matures.
 
-Based on the public changelog, the latest documented additions include expanded finance workflows, finance containers, recurring finance improvements, stability-focused refinements, independent product and service workflows, stronger finance-container management, fund-aware exports, improved tax emission reliability, sales analytics, UI refinements, team-oriented workspace features, plan validation fixes, and a dedicated mobile app plus integration layer.
+Based on the public changelog, the latest documented additions include a dedicated mobile app and integration layer, customer management, service activation integration, support ticket lifecycle refinements, sales PDF export, and a unified WeasyPrint-based PDF reporting system for sales, finance, and cash reports.
 
 ## Disclaimer
 

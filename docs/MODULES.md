@@ -28,7 +28,11 @@ This scope now also includes team-oriented collaboration through company roles a
 
 Supports transaction management, customer-related sales flows, and reporting-oriented workflows.
 
-This area also includes analytics-oriented sales insights and dashboard capabilities.
+This area also includes analytics-oriented sales insights, dashboard capabilities, and PDF report exports.
+
+### Customers
+
+Supports customer listing, detail views, updates, CSV export, and historical visibility across sales and active services.
 
 ### Inventory
 
@@ -44,11 +48,11 @@ Supports business income and expense tracking, financial visibility, and export-
 
 This area also includes transaction-oriented workflows, finance containers, recurring financial operations, and fund-aware finance organization.
 
-It also supports stronger finance-container management and export flows aligned to fund-level organization.
+It also supports stronger finance-container management, export flows aligned to fund-level organization, and unified PDF report generation.
 
 ### Cash Management
 
-Supports cash session control and daily cash-related operational processes.
+Supports cash session control, daily cash-related operational processes, and unified PDF reporting for cash closures.
 
 ### Suppliers
 
@@ -56,7 +60,7 @@ Supports supplier information management as part of the operational workflow.
 
 ### Active Services
 
-Supports post-sale service tracking and service lifecycle management.
+Supports post-sale service tracking, service lifecycle management, customer linking, and service activation flows.
 
 ### Tax and Compliance
 
@@ -64,4 +68,8 @@ Supports tax-oriented business configuration, compliance-related processes for f
 
 ### Support
 
-Supports communication and follow-up workflows between users and the platform team.
+Supports communication and follow-up workflows between users and the platform team, including ticket states, closing, reopening, and lifecycle-oriented UI refinements.
+
+### Reporting
+
+Supports HTML template-based PDF generation for sales, finance, and cash reports through a unified WeasyPrint reporting approach.

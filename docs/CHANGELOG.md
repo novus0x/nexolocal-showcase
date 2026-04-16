@@ -76,3 +76,7 @@ This file summarizes the documented release history of NexoLocal.
 | 1.34.0 | Team system & plan features | Introduced company team management, roles, invitations, plan feature system and CSV exports for products and services | 46714 |
 | 1.34.1 | Plan validation fixes | Fixed plan cycle enum validation, corrected update permission check and minor UI cleanup in plan editing | 46729 |
 | 1.35.0 | Mobile app & API layer | Introduced full mobile application (Expo + React Native) with 42 screens and a dedicated API/BFF layer for mobile integration, including session handling, permissions and module coverage | 72688 |
+| 1.36.0 | Customer management module | Introduced full customers module with listing, detail, update, CSV export and history of sales/services, including integration with service activation flows | 74479 |
+| 1.36.1 | Support lifecycle & billing fixes | Improved support ticket lifecycle with states, closing/reopening and UI refinements, plus fixes in renewal logic and payment configuration handling | 75134 |
+| 1.37.0 | Sales report export | Added PDF export for sales using WeasyPrint, including backend generation and simplified frontend flow for report configuration | 76379 |
+| 1.38.0 | Unified PDF reporting system | Migrated all reports (sales, finance, cash) to HTML templates with WeasyPrint, removed ReportLab and improved PDF layouts and rendering | 76985 |

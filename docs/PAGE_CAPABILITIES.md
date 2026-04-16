@@ -22,6 +22,7 @@ Current private capabilities include:
 - billing visibility
 - subscription-related actions
 - support workflows
+- support ticket lifecycle actions
 - invitation-based collaboration
 - role-based team collaboration
 
@@ -40,6 +41,7 @@ Platform administrators can operate cross-company management workflows such as:
 
 Companies use NexoLocal as an operational workspace for:
 
+- customers
 - sales
 - sales analytics
 - inventory
@@ -53,6 +55,8 @@ Companies use NexoLocal as an operational workspace for:
 - business settings
 - tax-related setup
 - CSV exports for products and services
+- CSV exports for customers
+- PDF reports for sales, finance, and cash workflows
 
 ## Public Documentation Scope
 
