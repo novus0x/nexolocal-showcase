@@ -22,7 +22,7 @@ Supports central management of roles, plans, plan features, companies, users, an
 
 Supports the main operational workspace for each business using the platform.
 
-This scope now also includes team-oriented collaboration through company roles and invitations.
+This scope now also includes team-oriented collaboration through company roles and invitations, consistent light-mode UI support, and reusable async list-driven interaction patterns across module views.
 
 ### Sales
 
@@ -48,11 +48,11 @@ Supports business income and expense tracking, financial visibility, and export-
 
 This area also includes transaction-oriented workflows, finance containers, recurring financial operations, and fund-aware finance organization.
 
-It also supports stronger finance-container management, export flows aligned to fund-level organization, and unified PDF report generation.
+It also supports stronger finance-container management, reset cycles for funds and containers, export flows aligned to fund-level organization, period-based segmented PDF reporting, and grouped subtotals by cycle period.
 
 ### Cash Management
 
-Supports cash session control, daily cash-related operational processes, and unified PDF reporting for cash closures.
+Supports main cash and subcash session control, user-level cash sessions, daily cash-related operational processes, consolidated reporting, treasury-oriented business rules, and refined PDF reporting for cash closures.
 
 ### Suppliers
 
@@ -73,3 +73,5 @@ Supports communication and follow-up workflows between users and the platform te
 ### Reporting
 
 Supports HTML template-based PDF generation for sales, finance, and cash reports through a unified WeasyPrint reporting approach.
+
+This area also includes segmented finance reporting by cycle period, grouped subtotals, opener information in cash exports, and refined pagination and layout behavior for finance and cash PDFs.

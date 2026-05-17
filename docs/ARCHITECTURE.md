@@ -12,6 +12,8 @@ The frontend provides the public product experience as well as authenticated wor
 
 It also presents report configuration and export flows for sales, finance, and cash operations.
 
+The frontend direction now includes a reusable design system architecture with tokens, themes, and utilities, full light mode support, async list infrastructure for filtering and pagination, and compact-sidebar behavior that preserves user navigation state.
+
 ### Mobile App
 
 The mobile layer extends the platform to dedicated app-based workflows for supported business modules.
@@ -22,6 +24,8 @@ The backend coordinates authentication, business rules, company operations, bill
 
 It also supports a mobile-oriented integration layer for app experiences.
 
+The service layer also coordinates treasury-oriented finance and cash rules, including fund reset cycles, main cash and subcash handling, and reporting-ready operational aggregation.
+
 ### Database
 
 The data layer stores customer, business, operational, subscription, support, reporting, and compliance-related information required by the platform.
@@ -29,6 +33,8 @@ The data layer stores customer, business, operational, subscription, support, re
 ### Reporting
 
 The reporting layer uses HTML templates and WeasyPrint to generate unified PDF reports across sales, finance, and cash workflows.
+
+It also supports period-based segmentation for finance reports, grouped subtotals by cycle period, opener visibility in cash exports, and refined pagination and layout behavior for generated PDFs.
 
 ### Service Integrations
 
@@ -39,7 +45,7 @@ NexoLocal connects with external providers for:
 - payments
 - tax-oriented integrations
 
-The public product direction also reflects continued investment in customer visibility, support lifecycle management, financial workflow expansion, unified reporting, and resilience for tax-related operations.
+The public product direction also reflects continued investment in treasury workflow expansion, segmented reporting, reusable frontend infrastructure, async interaction patterns, and resilience for tax-related operations.
 
 ## Product Architecture Principles
 
@@ -49,6 +55,8 @@ The public product direction also reflects continued investment in customer visi
 - Modular business domains for commercial and operational processes
 - Support for subscription-driven company onboarding
 - Unified report generation across business modules
+- Reusable interface primitives and theme-driven UI consistency
+- Async-first list and filtering patterns for operational modules
 
 ## Public Documentation Scope
 

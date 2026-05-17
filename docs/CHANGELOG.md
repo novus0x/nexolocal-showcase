@@ -80,3 +80,9 @@ This file summarizes the documented release history of NexoLocal.
 | 1.36.1 | Support lifecycle & billing fixes | Improved support ticket lifecycle with states, closing/reopening and UI refinements, plus fixes in renewal logic and payment configuration handling | 75134 |
 | 1.37.0 | Sales report export | Added PDF export for sales using WeasyPrint, including backend generation and simplified frontend flow for report configuration | 76379 |
 | 1.38.0 | Unified PDF reporting system | Migrated all reports (sales, finance, cash) to HTML templates with WeasyPrint, removed ReportLab and improved PDF layouts and rendering | 76985 |
+| 1.39.0 | Cash management system | Introduced main cash and subcash system with user-level cash sessions, consolidated reporting and new treasury business rules integrated with sales and dashboard flows | 79225 |
+| 1.40.0 | Fund reset cycles & segmented reports | Added reset cycles for finance funds/containers and period-based segmentation in finance PDF reports, including grouped subtotals by cycle period | 79738 |
+| 1.40.1 | Reporting refinements | Improved cash calculations, added opener information in reports and refined PDF pagination/layout behavior for finance and cash exports | 79772 |
+| 1.41.0 | Design system & light mode | Introduced a reusable frontend design system architecture with tokens/themes/utilities and implemented full light mode support across the platform | 80697 |
+| 1.42.0 | Async list infrastructure | Added NexoAsyncList, a reusable async pagination and filtering system with partial HTML updates and persistent URL state handling | 80825 |
+| 1.42.1 | Compact sidebar fixes | Fixed compact sidebar behavior to always show section icons while preserving the original expanded/collapsed group state of the user | 80852 |

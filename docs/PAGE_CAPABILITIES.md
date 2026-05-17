@@ -25,6 +25,8 @@ Current private capabilities include:
 - support ticket lifecycle actions
 - invitation-based collaboration
 - role-based team collaboration
+- light mode interface support
+- persistent navigation state in compact sidebar flows
 
 ## Platform Experience
 
@@ -50,13 +52,18 @@ Companies use NexoLocal as an operational workspace for:
 - finance
 - finance containers
 - recurring finance operations
+- finance fund reset cycles
 - cash operations
+- main cash and subcash sessions
 - active services
 - business settings
 - tax-related setup
 - CSV exports for products and services
 - CSV exports for customers
 - PDF reports for sales, finance, and cash workflows
+- segmented finance PDF reports with grouped subtotals
+- consolidated cash reporting
+- async pagination and filtering with partial HTML updates
 
 ## Public Documentation Scope
 

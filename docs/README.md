@@ -3,7 +3,7 @@
 ## Project Overview
 NexoLocal is a production SaaS application for business operations, company onboarding, billing, sales, customer management, cash control, support, reporting, tax-oriented workflows, and active service tracking.
 
-The current implementation covers public discovery, account creation, email verification, plan selection, company onboarding, platform administration, company management, customer management, supplier maintenance, public document lookup, support lifecycle handling, reporting exports, and post-sale active service management.
+The current implementation covers public discovery, account creation, email verification, plan selection, company onboarding, platform administration, company management, customer management, supplier maintenance, public document lookup, support lifecycle handling, reporting exports, post-sale active service management, and expanded treasury-oriented finance and cash workflows.
 
 The public product scope also includes a dedicated mobile application experience supported by a mobile-oriented integration layer.
 
@@ -19,10 +19,14 @@ The public product scope also includes a dedicated mobile application experience
 - Public document lookup
 - Export-oriented sales, cash, and finance workflows
 - Unified PDF reporting for sales, finance, and cash reports
+- Period-segmented finance PDF reports with grouped subtotals
 - Customer records with history across sales and services
 - Sales analytics and insight dashboards
 - Recurring finance operations
 - Finance containers and fund-level organization
+- Fund reset cycles for finance containers
+- Main cash and subcash session management
+- Consolidated cash reporting and treasury-oriented business rules
 - Independent product and service workflows
 - Team management, invitations, and role-based collaboration
 - Plan feature system
@@ -30,6 +34,9 @@ The public product scope also includes a dedicated mobile application experience
 - CSV exports for customers
 - Support ticket lifecycle management
 - Mobile application experience
+- Reusable frontend design system with tokens, themes, and utilities
+- Full light mode support
+- Async list infrastructure for pagination, filtering, partial HTML updates, and persistent URL state
 
 ## Tech Stack
 ### Backend
@@ -45,6 +52,7 @@ The public product scope also includes a dedicated mobile application experience
 - Server-rendered templating
 - Modern web UI layer
 - Vanilla JavaScript
+- Reusable design system architecture
 - HTML template-based report rendering
 
 ### Database
@@ -83,4 +91,4 @@ NexoLocal is documented as a modern web platform built with:
 ## Documentation Note
 This documentation is intended as a public-facing overview of the product and its evolution. It describes the platform at a business and architecture level without exposing proprietary implementation details.
 
-The latest public changelog entries reflect the introduction of the mobile app and API layer, a complete customer management module, support ticket lifecycle improvements, sales PDF export, and the migration of sales, finance, and cash reports into a unified WeasyPrint-based PDF reporting system.
+The latest public changelog entries reflect the introduction of a main cash and subcash model, fund reset cycles with segmented finance reporting, reporting refinements for finance and cash exports, a reusable design system with light mode support, and an async list infrastructure for pagination and filtering.
