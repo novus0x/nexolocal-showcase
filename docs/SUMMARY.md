@@ -21,16 +21,22 @@ The platform combines:
 
 - Sales
 - Sales analytics
+- Executive analytics
 - Customers
 - Inventory
 - Services
+- Production
+- Orders and fulfillment
 - Finance
 - Finance containers
 - Recurring finance operations
 - Fund reset cycles
+- Financial planning
 - Cash management
 - Main cash and subcash sessions
 - Suppliers
+- Knowledge base
+- Updates center
 - Active services
 - Billing and subscriptions
 - Platform administration
@@ -46,7 +52,7 @@ The platform combines:
 
 NexoLocal is documented as a web-based platform built with modern backend and frontend technologies, relational persistence, selected third-party integrations for communication, identity, payments, and compliance-oriented processes, plus a reusable UI architecture for consistent theming and interface behavior.
 
-Recent public milestones include the introduction of a main cash and subcash management model, finance fund reset cycles, segmented finance PDF reports, refined finance and cash exports, a reusable design system with full light mode support, and async list infrastructure for pagination, filtering, and persistent URL state.
+Recent public milestones include executive analytics with health scoring and PDF exports, production and recipe workflows, order fulfillment, budgeting and projections, supplier and finance UX refinements, a public knowledge base, and a changelog management system with notifications and read tracking.
 
 ## Public Documentation Scope
 

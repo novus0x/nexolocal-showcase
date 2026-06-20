@@ -11,6 +11,7 @@ Current public capabilities include:
 - authentication entry points
 - legal and trust-related information
 - public verification of issued document data
+- public support and knowledge base access
 
 ## Authenticated Experience
 
@@ -27,6 +28,7 @@ Current private capabilities include:
 - role-based team collaboration
 - light mode interface support
 - persistent navigation state in compact sidebar flows
+- update notifications and changelog history visibility
 
 ## Platform Experience
 
@@ -38,6 +40,7 @@ Platform administrators can operate cross-company management workflows such as:
 - plan feature administration
 - company administration
 - platform-level support and analytics
+- platform dashboard and changelog management
 
 ## Company Experience
 
@@ -46,11 +49,15 @@ Companies use NexoLocal as an operational workspace for:
 - customers
 - sales
 - sales analytics
+- executive analytics
 - inventory
 - services
+- production
+- orders and fulfillment
 - suppliers
 - finance
 - finance containers
+- budgets, obligations, projections, and finance calendar workflows
 - recurring finance operations
 - finance fund reset cycles
 - cash operations
@@ -64,6 +71,7 @@ Companies use NexoLocal as an operational workspace for:
 - segmented finance PDF reports with grouped subtotals
 - consolidated cash reporting
 - async pagination and filtering with partial HTML updates
+- knowledge base content management
 
 ## Public Documentation Scope
 

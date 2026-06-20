@@ -21,16 +21,21 @@ The platform now extends beyond the web experience with a dedicated mobile appli
 ## Key Features
 
 - **Sales:** sale creation, customer lookup, reporting, PDF report exports, and internal sale document generation.
-- **Sales analytics:** real-time sales insights and dashboard-oriented metrics.
+- **Business analytics:** real-time sales insights, executive dashboards, predictions, goals, risks, business health scoring, and PDF exports.
 - **Customer management:** customer listing, detail, updates, CSV export, and sales/service history.
 - **Inventory:** product catalog, batch management, imports, and product updates.
 - **Services:** independent service-oriented workflows alongside product operations.
+- **Production operations:** recipes, work orders, costing, inventory transformations, and production supplies organization.
+- **Orders and fulfillment:** order lifecycle workflows with sales, cash, and operational fulfillment integration.
 - **Finance:** transaction tracking, finance containers, summaries, grouped entries, recurring operations, fund reset cycles, segmented reports, and unified PDF/CSV export flows.
+- **Financial planning:** budgets, obligations, financial calendar, projections, categories, commissions, and referrals reporting.
 - **Cash management:** main cash and subcash sessions, cash opening and closing, user-level session tracking, consolidated reporting, treasury-oriented rules, and unified PDF export flows.
 - **Supplier management:** supplier creation, listing, reading, and updates.
 - **Fiscal documents:** tax profile setup, fiscal series configuration, tax document records, public document verification via `/check-ticket`, and more resilient tax emission workflows.
 - **Role-based permissions:** platform roles, permission catalog, company-scoped access, and guarded modules.
 - **Team management:** company roles, invitations, and team-oriented workspace collaboration.
+- **Knowledge base:** internal content management plus a public support and documentation portal.
+- **Product updates center:** changelog publishing, notifications, read tracking, and release history visibility.
 - **Multi-company architecture:** plan-based onboarding, company creation, subscriptions, billing history, and support for multiple companies per user.
 - **Plan feature system:** plan-driven feature organization for company capabilities.
 - **Authentication and account lifecycle:** email/password authentication, Google OAuth, email verification, password recovery, and user password updates.
@@ -50,13 +55,13 @@ At the business level, NexoLocal can support the full journey from product disco
 - Account creation, login, email verification, and password recovery.
 - Subscription management with first-company trial logic and paid flows for additional companies.
 - Platform-side administration for users, roles, plans, companies, analytics, and staff support.
-- Company-side daily operations across customers, products, services, suppliers, sales, sales analytics, finance containers, recurring finance workflows, fund reset cycles, cash, settings, and tax configuration.
+- Company-side daily operations across customers, products, services, suppliers, sales, analytics, production, orders, finance containers, financial planning workflows, recurring finance workflows, fund reset cycles, cash, knowledge base content, settings, and tax configuration.
 - Team collaboration through roles, invitations, and plan-aware workspace capabilities.
 - Mobile access through a dedicated application experience with module coverage aligned to business operations.
 - Public verification of issued document information through a dedicated lookup flow.
 - Support lifecycle and invitation workflows for growing teams and multi-user company environments.
 - Async list-driven module views with filtering, pagination, and partial updates.
-- Light mode support and compact-sidebar behavior that preserves user navigation state.
+- Light mode support, compact-sidebar behavior that preserves user navigation state, and a branded public ticket verification experience.
 
 ## Architecture
 
@@ -110,7 +115,7 @@ NexoLocal follows a multi-surface SaaS architecture:
 
 Handles sale creation, customer lookup, sales listing, reports, PDF exports, and internal sale document generation.
 
-Also supports analytics-oriented dashboards with real-time insights for sales activity.
+Also supports analytics-oriented dashboards with executive insights, business health scoring, predictions, goals, risks, and PDF exports.
 
 ### Inventory
 
@@ -130,9 +135,21 @@ Provides finance summaries, chart data, income and expense registration, and exp
 
 Also supports broader finance workflows such as transaction management, finance containers, recurring financial operations, richer finance views, fund reset cycles, segmented PDF reporting, and grouped subtotals by cycle period.
 
+This scope now also includes budgeting, obligations, projections, calendar-based planning, finance categories, commission exports, and refined permissions around financial reporting.
+
+### Production
+
+Supports recipes, work orders, costing visibility, production supplies organization, and inventory transformation workflows.
+
+### Orders
+
+Supports operational order management, fulfillment flows, realtime search, and integration with sales and cash processes.
+
 ### Suppliers
 
 Supports supplier creation, listing, detail retrieval, and updates.
+
+This area also includes a refreshed interface aligned with the platform design system.
 
 ### Tax Engine
 
@@ -159,6 +176,16 @@ Tracks services sold after checkout, including activation, usage validation, exp
 ### Platform Administration
 
 Provides central management for users, roles, plans, plan features, companies, analytics, and support tickets with state-based support lifecycle handling.
+
+It also includes a platform dashboard and dynamic plan-highlighting support for commercial visibility.
+
+### Knowledge Base
+
+Provides category and article management, public documentation publishing, and sanitized content rendering for support-oriented self-service.
+
+### Updates Center
+
+Provides changelog publishing, scheduled release visibility, notification delivery, read tracking, and update history browsing.
 
 ## Project Structure
 
@@ -194,7 +221,7 @@ The published changelog represents the version history that has already been rev
 
 NexoLocal is in active development. The documented platform already covers product discovery, authentication, onboarding, billing, platform administration, company operations, support flows, public document lookup, and active service management, while continuing to evolve as the product matures.
 
-Based on the public changelog, the latest documented additions include a main cash and subcash model, finance fund reset cycles, segmented finance PDF reports, refined finance and cash exports, a reusable design system with full light mode support, async list infrastructure through `NexoAsyncList`, and compact-sidebar behavior that preserves the user's navigation state.
+Based on the public changelog, the latest documented additions include executive analytics with PDF exports, production and recipe workflows, order fulfillment, financial planning tools, supplier and finance UX refinements, a public knowledge base, and a changelog management system with notifications and read tracking.
 
 ## Disclaimer
 

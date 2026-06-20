@@ -86,3 +86,16 @@ This file summarizes the documented release history of NexoLocal.
 | 1.41.0 | Design system & light mode | Introduced a reusable frontend design system architecture with tokens/themes/utilities and implemented full light mode support across the platform | 80697 |
 | 1.42.0 | Async list infrastructure | Added NexoAsyncList, a reusable async pagination and filtering system with partial HTML updates and persistent URL state handling | 80825 |
 | 1.42.1 | Compact sidebar fixes | Fixed compact sidebar behavior to always show section icons while preserving the original expanded/collapsed group state of the user | 80852 |
+| 1.43.0 | Business analytics & executive insights | Added Analytics module with executive insights, predictions, risks, goals, business health score and PDF exports | 83731 |
+| 1.43.1 | Cash UX & thermal ticket improvements | Improved subcash UX, redirected users directly to sales after opening a subcash and redesigned the internal 80mm thermal ticket | 83961 |
+| 1.43.2 | Ticket verification UI redesign | Redesigned the public check ticket page with improved branding, responsive layout and cleaner UX | 84092 |
+| 1.44.0 | Production & recipe management | Added complete production module with recipes, work orders and inventory transformation workflows | 85750 |
+| 1.45.0 | Orders & fulfillment system | Added orders module with fulfillment workflow, sales and cash integration, realtime search and operational UI improvements | 87632 |
+| 1.46.0 | Platform dashboard & production expansion | Added platform dashboard, recipe management improvements, production costing, analytics redesign and dynamic plan highlighting | 89992 |
+| 1.46.1 | Landing & branding refinements | Refined landing page structure, copywriting, SEO metadata and product positioning as a modular business platform | 89999 |
+| 1.47.0 | Financial planning & production supplies | Added budgets, obligations, financial calendar, projections, categories and a dedicated production supplies architecture | 95564 |
+| 1.47.1 | Supplier UI refresh | Redesigned and refined the suppliers module interface for better usability and consistency with the design system | 95836 |
+| 1.47.2 | Finance & team experience improvements | Redesigned finance movements, team management, invitations and roles with realtime search and permission filtering | 97630 |
+| 1.48.0 | Knowledge base & public support portal | Added complete Knowledge Base system with categories, articles, public documentation, content management and HTML sanitization improvements | 100991 |
+| 1.48.1 | Commission reporting improvements | Added commission PDF export, export permissions and multiple UI refinements for commissions and referrals | 102924 |
+| 1.49.0 | Updates & changelog management system | Introduced changelog management with scheduled publishing, notification center, read tracking and update history pages | 105989 |

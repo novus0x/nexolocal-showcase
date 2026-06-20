@@ -1,9 +1,9 @@
 # NexoLocal
 
 ## Project Overview
-NexoLocal is a production SaaS application for business operations, company onboarding, billing, sales, customer management, cash control, support, reporting, tax-oriented workflows, and active service tracking.
+NexoLocal is a production SaaS application for business operations, company onboarding, billing, sales, analytics, production, orders, customer management, finance and cash control, support, reporting, tax-oriented workflows, and active service tracking.
 
-The current implementation covers public discovery, account creation, email verification, plan selection, company onboarding, platform administration, company management, customer management, supplier maintenance, public document lookup, support lifecycle handling, reporting exports, post-sale active service management, and expanded treasury-oriented finance and cash workflows.
+The current implementation covers public discovery, account creation, email verification, plan selection, company onboarding, platform administration, company management, customer management, supplier maintenance, production and order workflows, public document lookup, support lifecycle handling, knowledge base publishing, reporting exports, post-sale active service management, and expanded treasury-oriented finance and cash workflows.
 
 The public product scope also includes a dedicated mobile application experience supported by a mobile-oriented integration layer.
 
@@ -12,8 +12,8 @@ The public product scope also includes a dedicated mobile application experience
 - Account verification and password recovery
 - Public landing page with plan discovery
 - Private user area with dashboard, billing, invitations, and support
-- Platform administration for users, roles, plans, companies, analytics, and support
-- Company area for customers, sales, sales analytics, inventory, services, suppliers, finance, finance containers, recurring finance workflows, cash, settings, and active services
+- Platform administration for users, roles, plans, companies, analytics, changelog operations, and support
+- Company area for customers, sales, business analytics, inventory, services, production, orders, suppliers, finance, finance containers, financial planning workflows, recurring finance workflows, cash, settings, knowledge base content, and active services
 - Tax-oriented setup for formal companies
 - Subscription and onboarding flows for business workspaces
 - Public document lookup
@@ -22,17 +22,24 @@ The public product scope also includes a dedicated mobile application experience
 - Period-segmented finance PDF reports with grouped subtotals
 - Customer records with history across sales and services
 - Sales analytics and insight dashboards
+- Executive analytics with predictions, risks, goals, business health scoring, and PDF exports
 - Recurring finance operations
 - Finance containers and fund-level organization
 - Fund reset cycles for finance containers
+- Budgets, obligations, financial calendar, projections, and finance categories
 - Main cash and subcash session management
 - Consolidated cash reporting and treasury-oriented business rules
 - Independent product and service workflows
+- Production recipes, work orders, costing, and inventory transformation workflows
+- Orders and fulfillment workflows with sales and cash integration
 - Team management, invitations, and role-based collaboration
 - Plan feature system
 - CSV exports for products and services
 - CSV exports for customers
+- Commission PDF exports with export permissions
 - Support ticket lifecycle management
+- Public knowledge base and support portal
+- Changelog publishing, notifications, read tracking, and update history
 - Mobile application experience
 - Reusable frontend design system with tokens, themes, and utilities
 - Full light mode support
@@ -91,4 +98,4 @@ NexoLocal is documented as a modern web platform built with:
 ## Documentation Note
 This documentation is intended as a public-facing overview of the product and its evolution. It describes the platform at a business and architecture level without exposing proprietary implementation details.
 
-The latest public changelog entries reflect the introduction of a main cash and subcash model, fund reset cycles with segmented finance reporting, reporting refinements for finance and cash exports, a reusable design system with light mode support, and an async list infrastructure for pagination and filtering.
+The latest public changelog entries reflect the introduction of executive analytics, production and recipe management, orders and fulfillment, financial planning workflows, supplier and finance UX refinements, a public knowledge base, and a changelog management system with notifications and read tracking.

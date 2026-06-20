@@ -18,6 +18,8 @@ Supports plan selection, company onboarding, subscription lifecycle flows, and b
 
 Supports central management of roles, plans, plan features, companies, users, analytics, and support operations.
 
+This scope also includes a platform dashboard and changelog/update management workflows.
+
 ### Company Operations
 
 Supports the main operational workspace for each business using the platform.
@@ -29,6 +31,10 @@ This scope now also includes team-oriented collaboration through company roles a
 Supports transaction management, customer-related sales flows, and reporting-oriented workflows.
 
 This area also includes analytics-oriented sales insights, dashboard capabilities, and PDF report exports.
+
+### Business Analytics
+
+Supports executive insights, predictions, risks, goals, business health scoring, and analytics PDF exports.
 
 ### Customers
 
@@ -42,6 +48,14 @@ Supports product organization, stock-related records, and product maintenance wo
 
 Supports service-specific operational flows separated from product management.
 
+### Production
+
+Supports recipes, work orders, costing, production supplies, and inventory transformation workflows.
+
+### Orders and Fulfillment
+
+Supports operational order management, fulfillment flows, realtime search, and integration with sales and cash processes.
+
 ### Finance
 
 Supports business income and expense tracking, financial visibility, and export-oriented workflows.
@@ -50,6 +64,8 @@ This area also includes transaction-oriented workflows, finance containers, recu
 
 It also supports stronger finance-container management, reset cycles for funds and containers, export flows aligned to fund-level organization, period-based segmented PDF reporting, and grouped subtotals by cycle period.
 
+It now also includes budgets, obligations, calendar-based planning, projections, categories, commissions, and referral-related exports.
+
 ### Cash Management
 
 Supports main cash and subcash session control, user-level cash sessions, daily cash-related operational processes, consolidated reporting, treasury-oriented business rules, and refined PDF reporting for cash closures.
@@ -57,6 +73,8 @@ Supports main cash and subcash session control, user-level cash sessions, daily 
 ### Suppliers
 
 Supports supplier information management as part of the operational workflow.
+
+This module also includes a refreshed interface aligned with the broader design system.
 
 ### Active Services
 
@@ -69,6 +87,14 @@ Supports tax-oriented business configuration, compliance-related processes for f
 ### Support
 
 Supports communication and follow-up workflows between users and the platform team, including ticket states, closing, reopening, and lifecycle-oriented UI refinements.
+
+### Knowledge Base
+
+Supports category and article management, public documentation delivery, and sanitized support content publishing.
+
+### Updates Center
+
+Supports changelog publishing, scheduled releases, notification center workflows, read tracking, and update history pages.
 
 ### Reporting
 

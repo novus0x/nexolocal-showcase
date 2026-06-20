@@ -12,7 +12,7 @@ The frontend provides the public product experience as well as authenticated wor
 
 It also presents report configuration and export flows for sales, finance, and cash operations.
 
-The frontend direction now includes a reusable design system architecture with tokens, themes, and utilities, full light mode support, async list infrastructure for filtering and pagination, and compact-sidebar behavior that preserves user navigation state.
+The frontend direction now includes a reusable design system architecture with tokens, themes, and utilities, full light mode support, async list infrastructure for filtering and pagination, compact-sidebar behavior that preserves user navigation state, and branded public experiences for document verification, support content, and product updates.
 
 ### Mobile App
 
@@ -20,15 +20,15 @@ The mobile layer extends the platform to dedicated app-based workflows for suppo
 
 ### Backend
 
-The backend coordinates authentication, business rules, company operations, billing-related logic, permissions, customer workflows, support lifecycle handling, and product workflows.
+The backend coordinates authentication, business rules, company operations, billing-related logic, permissions, customer workflows, support lifecycle handling, production and order workflows, analytics, and product workflows.
 
 It also supports a mobile-oriented integration layer for app experiences.
 
-The service layer also coordinates treasury-oriented finance and cash rules, including fund reset cycles, main cash and subcash handling, and reporting-ready operational aggregation.
+The service layer also coordinates treasury-oriented finance and cash rules, including fund reset cycles, budgeting and projection workflows, main cash and subcash handling, and reporting-ready operational aggregation.
 
 ### Database
 
-The data layer stores customer, business, operational, subscription, support, reporting, and compliance-related information required by the platform.
+The data layer stores customer, business, operational, subscription, support, documentation, update-history, reporting, and compliance-related information required by the platform.
 
 ### Reporting
 
@@ -45,7 +45,7 @@ NexoLocal connects with external providers for:
 - payments
 - tax-oriented integrations
 
-The public product direction also reflects continued investment in treasury workflow expansion, segmented reporting, reusable frontend infrastructure, async interaction patterns, and resilience for tax-related operations.
+The public product direction also reflects continued investment in executive analytics, production and fulfillment workflows, treasury expansion, documentation self-service, product-update visibility, segmented reporting, reusable frontend infrastructure, async interaction patterns, and resilience for tax-related operations.
 
 ## Product Architecture Principles
 
